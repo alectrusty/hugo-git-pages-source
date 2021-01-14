@@ -1,15 +1,41 @@
-theme = "researcher"
+theme = "hugo-coder"
 baseURL = "https://alectrusty.github.io/"
 languageCode = "en-us"
 title = "alec trusty"
 
+paginate = 20
+
+pygmentsStyle = "b2"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
 [params]
   author = "Alec Trusty"
   description = "A place to show Alec Trusty-like things"
+  avatarURL = "images/avatar.jpg"
+  info = "Geographic Data Scientist"
   #favicon = "favicon.ico"  # path to a .ico to use as favicon
+  colorScheme = "dark"
+
   [params.footer]
     text = "Developed By Alec Trusty"
     url = "https://github.com/alectrusty/alectrusty.github.io"
+
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github"
+    weight = 1
+    url = "https://github.com/alectrusty/alectrusty.github.io"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    weight = 2
+    url = "https://twitter.com/johndoe/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/alec-trusty-30220b109/"
 
 [permalinks]
   "/" = "/:filename"
@@ -30,6 +56,10 @@ title = "alec trusty"
     name = "cv"
     url = "/cv"
     weight = 3
+  [[menu.main]]
+    name = "blog"
+    url = "/cv"
+    weight = 4
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
