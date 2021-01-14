@@ -9,17 +9,59 @@ pygmentsStyle = "b2"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 
+disqusShortname = "al"
+
 [params]
   author = "Alec Trusty"
   description = "A place to show Alec Trusty-like things"
-  avatarURL = "images/avatar.jpg"
+  keywords = "blog,geospatial,data-science,personal"
   info = "Geographic Data Scientist"
-  #favicon = "favicon.ico"  # path to a .ico to use as favicon
+  avatarURL = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+  #footerContent = "Schmeal"
+
+  dateFormat = "January 2, 2006"
+
+  hideFooter = true
+  hideCredits = true
+  hideCopyright = true
+  since = 2019
+
+  # Git Commit in Footer, uncomment the line below to enable it.
+  commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+  rtl = false
+
+  # Specify light/dark colorscheme
+  # Supported values:
+  # "auto" (use preference set by browser)
+  # "dark" (dark background, light foreground)
+  # "light" (light background, dark foreground) (default)
   colorScheme = "dark"
 
-  [params.footer]
-    text = "Developed By Alec Trusty"
-    url = "https://github.com/alectrusty/alectrusty.github.io"
+  # Hide the toggle button, along with the associated vertical divider
+  hideColorSchemeToggle = false
+
+  # Series see also post count
+  maxSeeAlsoItems = 5
+
+  # Enable Twemoji
+  enableTwemoji = true
+
+  # Custom CSS
+  customCSS = []
+
+  # Custom SCSS
+  customSCSS = []
+
+  # Custom JS
+  customJS = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
 
 [[params.social]]
     name = "Github"
@@ -27,39 +69,44 @@ pygmentsCodeFencesGuessSyntax = true
     weight = 1
     url = "https://github.com/alectrusty/alectrusty.github.io"
 [[params.social]]
-    name = "Twitter"
-    icon = "fa fa-twitter"
-    weight = 2
-    url = "https://twitter.com/johndoe/"
-[[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
-    weight = 3
+    weight = 2
     url = "https://www.linkedin.com/in/alec-trusty-30220b109/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    weight = 3
+    url = "https://twitter.com/johndoe/"
 
 [permalinks]
   "/" = "/:filename"
 
-[menu]
-  [[menu.main]]
-    name = "about"
-    url = "/about"
-    weight = 1
-  [[menu.main]]
-    name = "projects"
-    url = "/projects"
-    # 'pre' and 'post' hooks are available
-    # here we use an icon from Bootstrap https://icons.getbootstrap.com/
-    #pre = '<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/></svg> '
-    weight = 2
-  [[menu.main]]
-    name = "cv"
-    url = "/cv"
-    weight = 3
-  [[menu.main]]
-    name = "blog"
-    url = "/cv"
-    weight = 4
+[languages]
+    [languages.en]
+        languageName = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "about"
+            weight = 1
+            url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "projects"
+            weight = 2
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "cv"
+            weight = 3
+            url = "cv/"
+
+            [[languages.en.menu.main]]
+            name = "blog"
+            weight = 5
+            url = "posts/"
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
