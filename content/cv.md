@@ -3,6 +3,9 @@
 
 October 2019 - Present
 
+- Develop and carry out LiDar derived hydrography workflows
+- Analytical support in residential water use and forest biometric analysis
+
 ---
 
 *Independent Contractor / GIS & Data Services*
@@ -28,13 +31,13 @@ January 2017 - January 2018
 ---
 
 ### Skills
-**GIS & Remote Sensing**: Data creation and manipulation, vector and raster analysis, cartographic design, basic satellite image acquisition, calibration, and processing
+**GIS & Remote Sensing**: Data creation and manipulation, vector and raster analysis, spatial autocorrelation & regression, cartographic design
 
-**Statistics**: Classification & regression techniques, spatial statistics (spatial autocorrelation and regression), bayesian resampling, random forests, XGBOOST, bayesian impuation, k-NN
+**Statistics & Algorithms**: Classification & regression techniques, bayesian multiple imputation, random forests, k-NN
 
-**Programming**: R, Python, SQL, JavaScript (Basics)
+**Programming**: R, Python, SQL
 
-**Software / OS**: Rstudio, Jupyter Lab, QGIS, Windows, Linux
+**Software / OS**: Rstudio, Jupyter Lab, QGIS, Google Earth Engine, Windows/Linux
 
 --- 
 

@@ -18,7 +18,7 @@ disqusShortname = "al"
   info = "Geographic Data Analyst"
   avatarURL = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
-  #footerContent = "Schmeal"
+  #footerContent = "test"
 
   dateFormat = "January 2, 2006"
 
@@ -28,7 +28,7 @@ disqusShortname = "al"
   since = 2019
 
   # Git Commit in Footer, uncomment the line below to enable it.
-  commit = "https://github.com/luizdepra/hugo-coder/tree/"
+  # commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
   rtl = false
 
