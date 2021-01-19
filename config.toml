@@ -15,7 +15,7 @@ disqusShortname = "al"
   author = "Alec Trusty"
   description = "A place to show Alec Trusty-like things"
   keywords = "blog,geospatial,data-science,personal"
-  info = "Geographic Data Scientist"
+  info = "Geographic Data Analyst"
   avatarURL = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
   #footerContent = "Schmeal"
@@ -67,7 +67,7 @@ disqusShortname = "al"
     name = "Github"
     icon = "fa fa-github"
     weight = 1
-    url = "https://github.com/alectrusty/alectrusty.github.io"
+    url = "https://github.com/alectrusty"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
@@ -103,10 +103,10 @@ disqusShortname = "al"
             weight = 3
             url = "cv/"
 
-            [[languages.en.menu.main]]
-            name = "blog"
-            weight = 5
-            url = "posts/"
+            # [[languages.en.menu.main]]
+            # name = "blog"
+            # weight = 5
+            # url = "posts/"
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
