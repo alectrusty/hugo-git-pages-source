@@ -1,5 +1,5 @@
 ### Experience 
-*[NV5 Geospatial](https://quantumspatial.com/) / Senior GIS Technician*
+*Senior GIS Technician / [NV5 Geospatial](https://quantumspatial.com/)*
 
 October 2019 - Present
 
