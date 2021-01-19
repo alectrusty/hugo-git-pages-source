@@ -9,10 +9,8 @@ October 2019 - Present
 
 June 2019 - October 2019
 
-- [UBC](https://www.ubc.ca/): Reproduced a Walkability Index surface model
+- [UBC](https://www.ubc.ca/): Reproduced a [Walkability Index surface model](https://health-design.spph.ubc.ca/tools/walkability-index/)
 - [UD4H](https://ud4h.com/): Wrote a lot of R code to support various projects.
-
-*Necessary Skills*: R, Python, QGIS
 
 ---
 *Research Analyst / [SUPR Lab](https://www.suprlab.org/)*
@@ -20,8 +18,6 @@ June 2019 - October 2019
 January 2017 - January 2018
 
 - Wrangled a ton of spatial and aspatial data into a single PostgreSQL database to inform programmatic decision making at Energy Trust of Oregon
-
-*Necessary Skills*: R, PostgreSQL / PostGIS, Linux, ArcMap, Data Wrangling
 
 ---
 
