@@ -13,7 +13,7 @@ October 2019 - Present
 June 2019 - October 2019
 
 - [UBC](https://www.ubc.ca/): Reproduced a [Walkability Index surface model](https://health-design.spph.ubc.ca/tools/walkability-index/)
-- [UD4H](https://ud4h.com/): Wrote a lot of R code to support various projects.
+- [UD4H](https://ud4h.com/): Wrote a lot of R code to develop consistent and standardized urban health indicators.
 
 ---
 *Research Analyst / [SUPR Lab](https://www.suprlab.org/)*
@@ -31,13 +31,13 @@ January 2017 - January 2018
 ---
 
 ### Skills
-**GIS & Remote Sensing**: Data creation and manipulation, vector and raster analysis, spatial autocorrelation & regression, cartographic design
+**GIS & Remote Sensing**: Spatial data creation and manipulation, vector and raster analysis, cartographic design, land use classification
 
-**Statistics & Algorithms**: Classification & regression techniques, bayesian multiple imputation, random forests, k-NN
+**Statistics / Machine Learning**: Linear regression, spatial regression, random forests, k-NN, multiple imputation, bootstrap sampling
 
-**Programming**: R, Python, SQL
+**Programming**: R (data.table, tidyverse, caret, sf, raster); Python (numpy, pandas, geopandas, rasterio), SQL 
 
-**Software / OS**: Rstudio, Jupyter Lab, QGIS, Google Earth Engine, Windows/Linux
+**Software / OS**:  Rstudio, PyCharm, Jupyter Lab, QGIS, Git, Google Earth Engine, Windows/Linux
 
 --- 
 
