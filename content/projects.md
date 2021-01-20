@@ -3,7 +3,7 @@ Most of my work has been done in proprietary environments, but here are a few op
 ### Publications
 [Urban Heat Islands & Residential Energy Consumption](https://www.sciencedirect.com/science/article/pii/S2590252020300027?via%3Dihub)
 ### Python
-[OpenHydro](https://github.com/alectrusty/OpenHydro)
+[Hydro helper functions](https://github.com/alectrusty/hydro_functions/blob/main/processing_functions.py)
 
 [LandSat-Grabber](https://github.com/alectrusty/landsat-grabber)
 ### Data Visualization
