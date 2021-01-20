@@ -77,7 +77,7 @@ disqusShortname = "al"
     name = "Twitter"
     icon = "fa fa-twitter"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/alec_trusty/"
 
 [permalinks]
   "/" = "/:filename"
